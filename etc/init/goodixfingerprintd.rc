@@ -1,0 +1,4 @@
+service goodixfpd /system/bin/goodixfingerprintd
+    class main
+    user root
+    group media_rw system
