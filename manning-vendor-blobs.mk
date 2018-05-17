@@ -8,8 +8,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/manning/lib,
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/manning/lib64,system/lib64)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/manning/priv-app,system/priv-app)
-
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/manning/usr,system/usr)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/manning/vendor,system/vendor)
